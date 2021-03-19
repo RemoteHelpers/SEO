@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thank you page</title>
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/media.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <svg style="display: none;" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="puzzle" viewBox="0 0 71 64">
+      <path d="M31.6722 19.3352C35.4947 18.2881 37.7284 14.3896 36.6653 10.6244C36.0043 8.28299 34.2245 6.54946 32.0545 5.81997L51.2423 0.564453L56.323 18.5587C56.9999 16.2957 58.8155 14.4209 61.2882 13.7424C65.1146 12.6953 69.0724 14.8994 70.1355 18.6607C71.1986 22.4297 68.961 26.3282 65.1385 27.3754C62.6659 28.0539 60.1295 27.3675 58.3616 25.7752L63.4423 43.7694L43.2192 49.3073C45.9188 49.7191 48.2521 51.6409 49.0285 54.3981C50.0916 58.1671 47.8539 62.0656 44.0354 63.1128C40.217 64.16 36.2552 61.9558 35.1921 58.1907C34.4117 55.4335 35.4031 52.6018 37.4975 50.8761L19.5758 55.7865L14.2761 37.0157C13.8501 39.667 11.9031 41.9614 9.10789 42.7261C5.28943 43.7733 1.3276 41.5692 0.264479 37.804C-0.798638 34.0389 1.4391 30.1404 5.25756 29.0932C8.05272 28.3284 10.9235 29.3011 12.6755 31.3523L7.37581 12.5854L24.2583 7.96139C22.7811 9.68707 22.1639 12.0795 22.8249 14.4209C23.892 18.1782 27.8538 20.3824 31.6722 19.3352Z"/>
+    </symbol>
+  </svg>
+  <header class="header header--thanks">
+    <div class="puzzle-holder">
+      <svg class="puzzle-blue puzzle-blue--header" width="95" height="77.32">
+        <use href="#puzzle"></use>
+      </svg>
+      <svg class="puzzle-small puzzle-small--header puzzle-small--header--thanks" width="61.63" height="53.19">
+        <use href="#puzzle"></use>
+      </svg>
+      <svg class="puzzle-small puzzle-small--thanks " width="61.63" height="53.19">
+        <use href="#puzzle"></use>
+      </svg>
+      <div class="container">
+        <nav class="nav">
+          <div class="logo-holder"><img src="./img/logo.png" alt=""></div>
+          <div class="nav__list-holder">
+            <ul class="nav__list">
+              <li class="nav__item"><a href="index.html#about" class="nav__link">О вакансии</a></li>
+              <li class="nav__item"><a href="index.html#req" class="nav__link">Требования</a></li>
+              <li class="nav__item"><a href="index.html#adv" class="nav__link">Условия работы</a></li>
+              <li class="nav__item"><a href="index.html#resp" class="nav__link">Подать заявку</a></li>
+            </ul>
+          </div>
+          <div class="menu-icon-wrapper">
+            <div class="menu-icon"></div>
+          </div>
+        </nav>
+        <section class="ad ad--thanks">
+          <div class="ad__wrapper ad__wrapper--thanks">
+            <div class="ad__content ad__content--thanks">
+              <h1 class="main-title thanks-title">Thank<span> you</span></h1>
+              <p class="ad__text">Ваша заявка успешно отправлена.<br> Мы свяжемся с Вами в ближайшее время</p>
+              <a href="index.html" class="button button-link button--ad">Вернуться на Главную</a>
+            </div>
+            <div class="ad__img-wrapper ad__img-wrapper--thanks"><img src="./img/thanks-pic.svg" alt=""></div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </header>
+  <script src="./js/main.js"></script>
+</body>
+</html>
