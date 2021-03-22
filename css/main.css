@@ -53,6 +53,7 @@ img {
   padding: 20px 175px;
   background: #FFB037;
   border-radius: 10px;
+  border: none;
 }
 
 .button-link {
@@ -403,10 +404,6 @@ img {
   line-height: 1.4;
   color: rgba(67, 67, 67, 0.6);
   border: 2px solid #D8D7D7;
-}
-
-.response__input--last {
-  margin-bottom: 40px;
 }
 /* //Response */
 

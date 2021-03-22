@@ -377,10 +377,6 @@
   .response__content {
     width: 100%;
   }
-
-  .response__input--last {
-    margin-bottom: 20px;
-  }
 }
 
 @media (max-width: 520px) {
